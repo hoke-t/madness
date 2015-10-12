@@ -1,0 +1,42 @@
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+div.board {
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 600px;
+    height: 250px;
+    background-image: url("http://img11.deviantart.net/efea/i/2006/240/7/a/bg_texture___wood_by_nortago.jpg");
+}
+
+div.peg-container {
+    display: inline-block;
+    margin: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+div.peg {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 30px;
+    height: 100px;
+    background-color: #F4A460;
+}
+
+div.peg.selected {
+    border: solid;
+    border-color: black;
+    border-width: 4px;
+}
+
+p {
+    margin: auto;
+    text-align: center;
+    width: 500px;
+}
